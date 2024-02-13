@@ -1,0 +1,77 @@
+/* FinanciamientoForm.css */
+.container-form{
+  width: 100%;
+  height:100%;
+  padding: 30px;
+
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+ 
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+label {
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+input:focus {
+  outline: none;
+  border-color:#004cac;
+  box-shadow: 0 0 5px #004cac;
+}
+
+select {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+select:focus {
+  outline: none;
+  border-color: #004cac;
+  box-shadow: 0 0 5px #004cac;
+}
+
+p {
+  color: #333;
+  font-weight: 600;
+}
+
+button {
+  padding: 12px;
+  background-color: #004cac;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #545454;
+  color: rgb(239, 239, 239);
+}

@@ -1,0 +1,38 @@
+/* stylesCSS/print.css */
+ 
+  
+  .factura {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .factura-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .factura-detalle {
+    margin-top: 20px;
+  }
+  
+  .factura-detalle label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+  
+  .factura-detalle p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .factura-total {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  /* Otros estilos según necesidades */
+  

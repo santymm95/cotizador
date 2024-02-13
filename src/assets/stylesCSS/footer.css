@@ -1,0 +1,70 @@
+/* Ajusta los estilos según tus necesidades */
+.footer {
+  display: flex;
+  
+  justify-content: space-around;
+  background-color: #d0d0d0; /* Color de fondo del header */
+  padding: 10px 20px; /* Espaciado interno del header */
+  box-shadow: 5 15 1px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de elevación */
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease; /* Transición suave para cambios de color de fondo */
+  }
+  
+  
+  
+  #paralelograma {
+    text-align: center;
+    margin: 0px 10px;
+    width: 120px;
+    height: 40px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background:red;
+  }
+
+  #paralelogramas {
+    text-align: center;
+    margin: 0px 10px;
+    width: 120px;
+    height: 40px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background:rgb(13, 13, 13);
+  }
+
+  .paralelograma-low{
+    margin: 0px 10px;
+    width: 150px;
+    margin-left: 60px;
+    height: 60px;
+    z-index: 1;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background:rgb(13, 7, 133);
+  }
+
+
+  .container-footer{
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+  .container-footer p{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+
+  .separate{
+    width: 150px;
+    height: 10px;
+    border: none;
+  }
